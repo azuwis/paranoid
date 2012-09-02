@@ -65,7 +65,7 @@ esac
 echo -e ""
 echo -e "${bldblu}Downloading prebuilts ${txtrst}"
 cd vendor/cm
-./get-prebuilts
+#./get-prebuilts
 cd ./../..
 
 # sync with latest sources
