@@ -89,6 +89,8 @@ lunch "pa_$DEVICE-userdebug";
 echo -e ""
 echo -e "${bldblu}Starting compilation ${txtrst}"
 
+rm out/target/product/*/system/build.prop
+
 # start compilation
 brunch "pa_$DEVICE-userdebug";
 echo -e ""
